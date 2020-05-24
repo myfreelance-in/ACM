@@ -2,8 +2,6 @@
 body{
 	background: #FFFFFF;
 	overflow-x: hidden;
-	width: 100%;
-	height: auto;
 }
 
 /* Header */
@@ -136,13 +134,13 @@ top: 351px;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.slider img{
-		width: 750px;
-		height: 385px;
+		width: 510px;
+		height: 250px;
 	}
 
 	.slider{
-		left: 25px;
-    	top: 411px;
+		left: -10px;
+		top: 548px;
 	}
 	#e200_301{
 		top: 220px;
