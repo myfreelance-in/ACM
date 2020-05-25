@@ -58,7 +58,7 @@ color: #7A7A7A;
 	}
 
 	.he-nav-small{
-	margin-left: 43px;
+	margin-left: 43px !important;
 	}
 
 	.location{
