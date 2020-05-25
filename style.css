@@ -6,6 +6,11 @@ html,body{
 
 
 /* Header */
+
+button:focus{
+ outline: none !important;
+}
+
 .he-nav-align{
 	padding: 0rem 0rem 0rem 7rem !important; 
 	color: #000000 !important;
