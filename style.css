@@ -153,7 +153,7 @@ top: 350px;
 @media only screen and (max-width: 600px) {
 
 	.landing{
-		background-image: url("assets/images/banner/pot-landing.jpg"); /* The image used */
+		background-image: url("assets/images/banner/pot-landing.jpg") !important; /* The image used */
 		background-color: #cccccc; /* Used if the image is unavailable */
 		height: 555px; /* You must set a specified height */
 		background-position: center; /* Center the image */
