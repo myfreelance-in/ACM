@@ -279,7 +279,7 @@ input:focus{
 }
 
 @media only screen and (max-width: 600px) {
-	/* For mobile phones: */
+	/* For mobile phones: */ 
 	.f-design{
 		margin-bottom: 460px;
 		padding: 0px 0px;
@@ -1344,10 +1344,51 @@ color: #000000;
 		border-bottom: 3px solid #c68200;
 	}
 
+
 	.ab-img{
 	margin-top: 25px;
     margin-left: 20px;
     width: 433px;
+	}
+  }
+
+  @media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+	.nav-align{
+		padding-left: 3.5rem;
+	}
+
+	.ab-align{
+		margin: 40px 20px;
+		height: auto;
+	}
+
+	.ab-title{
+		font-size: 25px;
+		line-height: 30px;
+		}
+		
+	.ab-para{
+		font-size: 20px;
+		line-height: 25px;
+		}
+
+	#e224_123 { 
+		margin-right: 17.1rem;
+	}
+
+	.ab-margin{
+		margin: 10px 20px;
+		border-right: 0;
+		border-bottom: 3px solid #c68200;
+	}
+	.ab-margin1{
+		margin: 10px 20px;
+	}
+
+	.ab-img{
+    margin-left: 0px;
+    width: 333px;
 	}
   }
 /* About Page */
@@ -1366,7 +1407,7 @@ color: #353535;
 margin-left: 15px;
 }
 .hi-img{
-    margin-top: 630px;
+    margin-top: 470px;
     margin-left: -41px;
 }
 
@@ -1388,7 +1429,7 @@ margin-left: 15px;
 }
 
 .hi-marg{
-		margin-bottom: 2.8rem !important;
+		margin-bottom: 2.1rem !important;
 }
 
 .hi-card-img{
@@ -1435,4 +1476,43 @@ color: #000000;
 	}
 
 }
+
+@media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+	.nav-align{
+		padding-left: 3.5rem;
+	}
+
+	.hi-img{
+		margin-top: 30px;
+		width: 331px;
+		margin-left: 0px;
+	}
+
+	.hi-card-body{
+		padding-left: 0;
+		padding-top: 1.40rem;
+		font-size: 18px;
+	}
+
+
+	.hi-title{
+	font-size: 25px;
+	line-height: 30px;
+	}
+		
+	.ab-margin{
+		margin: 10px 20px;
+		border-right: 0;
+		border-bottom: 3px solid #c68200;
+	}
+	.ab-margin1{
+		margin: 10px 20px;
+	}
+
+	#e224_125 { 
+		margin-right: 16.1rem;
+	}
+
+  }
 /* Highlights Page */
