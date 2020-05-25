@@ -209,7 +209,6 @@ top: 345px;
 .f-label{
 	font-family: Roboto;
 font-style: normal;
-font-weight: bold;
 font-size: 25px;
 line-height: 35px;
 color: #717171;
@@ -288,9 +287,6 @@ input:focus{
 		margin-top: 45px;
 	}
 	
-	.f-label{
-  font-weight:normal;
-}
 }
 
 /* Form */
