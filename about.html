@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rasa&display=swap" rel="stylesheet">
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link href="style.css" rel="stylesheet">
 
@@ -20,20 +21,20 @@
   <body>
       <!-- Start of Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="background-color: #242331;">
-      <a href="index.html"><img src="assets/images/logo/logo.png"></a>
+      <a class="align-nav" href="index.html"><img style="width: 270px;" src="assets/images/logo/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding: 18px 0px;">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" style="padding-right: 7.5rem; font-size: 20px; color: #ffffff;" href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;About</a>
+              <a class="nav-link" style="padding-right: 7.5rem; font-size: 22px; color: #ffffff;" href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="padding-right: 7.5rem; font-size: 20px; color: #ffffff;" href="highlights.html"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Highlights</a>
+              <a class="nav-link" style="padding-right: 7.5rem; font-size: 22px; color: #ffffff;" href="highlights.html"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Highlights</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="padding-right: 2.5rem; font-size: 20px; color: #ffffff;" href="tel:04132210617"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;0413- 2210617</a>
+                <a class="nav-link" style="padding-right: 2.5rem; font-size: 22px; color: #ffffff;" href="tel:04132210617"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;0413- 2210617</a>
             </li>
           </ul> 
       </nav>
@@ -43,9 +44,9 @@
       <div class="ab-align">
           <div class="row">
               <div class="col-sm-7">
-                <p class="ab-title text-left">ABOUT ACM MOVERS</p>
-                <div id="e224_123"></div>
-                <div class="ab-para">
+                <p class="ab-title text-left" data-aos="fade-right" data-aos-duration="1000">ABOUT ACM MOVERS</p>
+                <div id="e224_123" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"></div>
+                <div class="ab-para" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <p>We are one of the reputed transport operators in this area and have been in this line of experiences for more than a three decades. We have all infrastucture facilities for our activities viz. Own fleets, Adequate Godown facilities for loading and unloading.</p>
                     <br>
                     <p>Moreover, we are having very good track of experience in this line of activities as well as “Business Associates” of reputed North Indian Transport company., M/S Saurashtra Roadways Delhi.,(SRD LOGISTICS) with humming intact activities of big corporate customers and traders in and around Pondicherry.</p>
@@ -56,13 +57,13 @@
                     <br>
                 </div>
               </div>
-              <div class="col-sm-5">
+              <div class="col-sm-5" data-aos="fade-up" data-aos-duration="1000">
                 <img class="ab-img" src="assets/images/About/ab-bg.png">
              </div>
           </div>
         <div class="ab-design">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4" >
                     <div class="ab-margin">
                         <p class="text-left ab-title">OUR EXPERTS</p>
                         <p class="text-left ab-para">We have the best workers for loading and unloading activities, with best movemanagers.</p>
@@ -88,6 +89,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
