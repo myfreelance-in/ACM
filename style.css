@@ -203,15 +203,64 @@ top: 350px;
 		display: none;
 	}
 	#e200_301{
-		display: none;
+		top: 220px;
 	}
 
 	#e200_233{
-		display: none;
+		left: 425px;
+		top: -169px;
+		font-size: 15px;
 	}
 
 	#e200_232{
+		left: 425px;
+		top: -147px;
+		width: 200px;
+		font-size: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 375px) {
+
+	.landing{
+		background-image: url("assets/images/banner/mob-landing.png") !important; /* The image used */
+		height: 152px; /* You must set a specified height */
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+	}
+
+	.goods{
+		    display: none;
+	}
+	.goods img{
 		display: none;
+	}
+
+	.slider img{
+		display: none;
+	}
+
+	.slider{
+		display: none;
+	}
+
+	#e200_301{
+		top: 220px;
+	}
+
+	#e200_233{
+		left: 450px;
+		top: -169px;
+		font-size: 15px;
+	}
+
+	#e200_232{
+		left: 450px;
+		top: -147px;
+		width: 194px;
+		font-size: 10px;
 	}
 
 }
@@ -241,15 +290,20 @@ top: 350px;
 		display: none;
 	}
 	#e200_301{
-		display: none;
+		top: 196px;
 	}
 
 	#e200_233{
-		display: none;
+		left: 477px;
+		top: -169px;
+		font-size: 15px;
 	}
 
 	#e200_232{
-		display: none;
+		left: 477px;
+		top: -147px;
+		width: 157px;
+		font-size: 10px;
 	}
 
 }
@@ -273,6 +327,9 @@ top: 350px;
 	-webkit-box-shadow: -1px 5px 39px 2px rgba(0,0,0,0.47); 
 	-moz-box-shadow: -1px 5px 39px 2px rgba(0,0,0,0.47);
 	box-shadow: -1px 5px 39px 2px rgba(0,0,0,0.47);
+}
+.form-submit{
+	margin-top: 42px;
 }
 
 .form-input{
@@ -367,14 +424,6 @@ input::placeholder {
 		font-size: 18px;
 	}
 
-	.fo-space{
-		margin-bottom: 15px;
-	}
-
-	.fo-align{
-		padding: 30px 64px 30px 40px;
-		margin-top: 46px;
-	}
 
 	.form-input{
 		width: 293px; 
@@ -386,6 +435,10 @@ input::placeholder {
 		height: 40px !important;
 	}
 
+	.form-submit{
+		margin-top: 25px;
+	}
+
 	.f-label1{
 		font-weight:normal;
 		font-size: 18px;
@@ -395,6 +448,15 @@ input::placeholder {
 	display: none;
 }
 }
+
+@media only screen and (max-width: 375px) {
+
+	.fo-align{
+		padding: 30px 64px 30px 40px !important;
+		margin-top: 46px !important;
+	}
+}
+
 
 @media only screen and (max-width: 320px) {
 	/* For mobile phones: */ 
@@ -409,13 +471,13 @@ input::placeholder {
 		font-size: 16px;
 	}
 
-	.fo-space{
-		margin-bottom: 15px;
+	.form-submit{
+		margin-top: 25px;
 	}
 
 	.fo-align{
-		padding: 30px 33px 30px 30px;
-		margin-top: 46px;
+		padding: 30px 33px 30px 30px !important;
+		margin-top: 46px !important;
 	}
 
 	.form-input{
@@ -487,6 +549,10 @@ color: #616161;
 
 @media only screen and (max-width: 600px) {
 
+	.s-c-design{
+		height: 310px;
+	}
+
 	.ser-align{
 		margin: 40px 12px 20px 12px;
 	}
@@ -498,7 +564,7 @@ color: #616161;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 20px;
-		line-height: 25px;
+		line-height: 10px;
 		color: #000000;
 	}
 	.para {
@@ -519,6 +585,11 @@ color: #616161;
 }
 
 @media only screen and (max-width: 320px) {
+
+	.s-c-design{
+		height: 310px;
+	}
+
 	.card-body{
 		padding: 0.75rem !important;
 	}
@@ -530,7 +601,7 @@ color: #616161;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 16px;
-		line-height: 25px;
+		line-height: 10px;
 		color: #000000;
 	}
 	.para {
@@ -1075,7 +1146,7 @@ color: #353535;
 		padding: 0px
 	}
 	.acc-height{
-		height: 182px;
+		height: 140px;
 	}
 
 	.acc-para-style{
@@ -1157,7 +1228,7 @@ color: #353535;
 		padding: 0px
 	}
 	.acc-height{
-		height: 182px;
+		height: 160px !important;
 		margin-left: -4px;
 	}
 
@@ -1239,7 +1310,7 @@ color: #353535;
 		padding: 0px
 	}
 	.acc-height{
-		height: 182px;
+		height: 160px;
 		margin-left: -4px;
 	}
 
