@@ -1962,17 +1962,88 @@ color: #000000;
 	}
 
 	.ab-title{
-		font-size: 25px;
-		line-height: 30px;
+		font-size: 20px;
+		line-height: 15px;
 		}
 		
 	.ab-para{
-		font-size: 20px;
+		font-size: 18px;
+		line-height: 25px;
+		}
+
+	.ab-margin{
+		margin: 10px 20px;
+		border-right: 0;
+		border-bottom: 3px solid #c68200;
+	}
+	.ab-margin1{
+		margin: 10px 20px;
+	}
+  }
+
+  @media only screen and (max-width: 425px) {
+	  
+	
+	#e224_123 { 
+		margin-right: 20.1rem !important;
+		border:3px solid rgba(254.00000005960464, 174.00000482797623, 3.000000058673322, 1);
+		margin-bottom: 15px;
+	}
+
+	
+	.ab-img{
+		margin-left: 0px !important;
+		width: 375px !important;
+		}
+  }
+
+  @media only screen and (max-width: 375px) {
+	  
+	
+	#e224_123 { 
+		margin-right: 17.1rem !important;
+		border:3px solid rgba(254.00000005960464, 174.00000482797623, 3.000000058673322, 1);
+		margin-bottom: 15px;
+	}
+
+	.ab-img{
+		margin-left: 0px !important;
+		width: 333px !important;
+		}
+
+  }
+
+  @media only screen and (max-width: 320px) {
+	/* For mobile phones: */
+	.nav-align{
+		padding-left: 3.5rem;
+	}
+
+	.nav-font-style{
+		padding-right: 7.5rem !important; 
+		font-size: 18px !important; 
+		color: #ffffff !important;
+	}
+
+	.ab-align{
+		margin: 40px 20px;
+		height: auto;
+	}
+
+	.ab-title{
+		font-size: 18px;
+		line-height: 15px;
+		}
+		
+	.ab-para{
+		font-size: 16px;
 		line-height: 25px;
 		}
 
 	#e224_123 { 
-		margin-right: 17.1rem;
+		margin-right: 13.9rem !important;
+		border:3px solid rgba(254.00000005960464, 174.00000482797623, 3.000000058673322, 1);
+		margin-bottom: 30px;
 	}
 
 	.ab-margin{
@@ -1985,8 +2056,8 @@ color: #000000;
 	}
 
 	.ab-img{
-    margin-left: 0px;
-    width: 333px;
+    margin-left: 0px !important;
+	width: 270px !important;
 	}
   }
 /* About Page */
@@ -2064,9 +2135,6 @@ color: #000000;
 		margin-left: 15px;
 	}
 
-	#e224_125 { 
-		margin-right: 24.9rem;
-	}
 
 	.hi-card-body{
 		padding-left: 0;
@@ -2081,11 +2149,6 @@ color: #000000;
 		padding-left: 3.5rem;
 	}
 
-	.hi-img{
-		margin-top: 30px;
-		width: 331px;
-		margin-left: 0px;
-	}
 
 	.hi-card-body{
 		padding-left: 0;
@@ -2095,8 +2158,8 @@ color: #000000;
 
 
 	.hi-title{
-	font-size: 25px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 15px;
 	}
 		
 	.ab-margin{
@@ -2108,8 +2171,76 @@ color: #000000;
 		margin: 10px 20px;
 	}
 
+
+  }
+
+  @media only screen and (max-width: 375px) {
+
 	#e224_125 { 
-		margin-right: 16.1rem;
+		border:3px solid rgba(254.00000005960464, 174.00000482797623, 3.000000058673322, 1);
+		margin-right: 17.1rem !important;
+	}
+
+	.hi-img{
+		margin-top: 30px;
+		width: 331px;
+		margin-left: 0px;
+	}
+
+  }
+
+  @media only screen and (max-width: 425px) {
+
+	#e224_125 { 
+		border:3px solid rgba(254.00000005960464, 174.00000482797623, 3.000000058673322, 1);
+		margin-right: 20.1rem !important;
+	}
+
+	.hi-img{
+		margin-top: 30px;
+		width: 331px;
+		margin-left: 0px;
+	}
+
+  }
+
+  @media only screen and (max-width: 320px) {
+	/* For mobile phones: */
+	.nav-align{
+		padding-left: 3.5rem;
+	}
+
+	.hi-img{
+		margin-top: 30px;
+		width: 280px;
+		margin-left: 0px;
+	}
+
+	.hi-card-body{
+		padding-left: 0;
+		padding-top: 1.40rem;
+		font-size: 16px;
+	}
+
+
+	.hi-title{
+	font-size: 18px;
+	line-height: 15px;
+	}
+		
+	.ab-margin{
+		margin: 10px 20px;
+		border-right: 0;
+		border-bottom: 3px solid #c68200;
+	}
+	.ab-margin1{
+		margin: 10px 20px;
+	}
+
+
+	#e224_125 { 
+		border:3px solid rgba(254.00000005960464, 174.00000482797623, 3.000000058673322, 1) !important;
+		margin-right: 13.4rem !important;
 	}
 
   }
