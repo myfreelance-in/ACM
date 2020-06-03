@@ -10,8 +10,13 @@ button:focus{
  outline: none !important;
 }
 
+.align-nav img{
+	width: 165px !important;
+	margin-left: 50px;
+}
+
 .he-nav-align{
-	padding: 0rem 0rem 0rem 7rem !important; 
+	padding: 0rem 0rem 0rem 8rem !important; 
 	color: #000000 !important;
 }
 
@@ -82,7 +87,8 @@ color: #7A7A7A;
 	}
 
 	.align-nav img{
-		width: 130px !important;
+		width: 98px !important;
+		margin-left: 0px !important;
 	}
 }
 
